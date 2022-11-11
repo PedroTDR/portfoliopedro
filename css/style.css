@@ -1,0 +1,230 @@
+:root {
+    --primary: #0E70B9;
+    --black: #000000;
+    --white: #FFFFFF;
+
+}
+
+
+html {
+    background-image: url(/img/back2.jpg);
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    background-size: cover;
+    font-family: 'Josefin Sans', sans-serif;
+    background-color: var(--black);
+    /* display: grid;
+    grid-template-columns: 25em 25em 25em 25em;
+    grid-template-rows: 25rem 25rem 25rem 25rem; */
+}
+
+/*index.html*/
+
+.nav-bg {
+    background-color: var(--primary);
+    border-radius: 2rem;
+    
+}
+
+.navegacion-principal {
+    text-align: center;
+    padding-top: 0.060rem;
+    padding-bottom: 0.060;
+    display: flex;
+    justify-content: space-evenly;
+    font-weight: 700;
+    position: relative;
+    
+}
+
+@media (min-width:768px){
+    .navegacion-principal{
+        flex-direction: row;
+    }
+}
+
+.navegacion-principal a {
+    background-color: var(--Secundario);
+    padding: 1rem 3rem;
+    text-decoration: none;
+    color: var(--blanco);
+    
+    
+}
+
+.navegacion-principal :hover {
+    background-color: var(--primary);
+    color: var(--white);
+}
+
+.imm {
+    background-color: var(--black);
+    color: var(--white);
+    border-radius: 2rem;
+    padding: 3rem;
+    margin-top: 20rem;
+    position: relative;
+    margin-left: 10rem;
+    margin-right: 10rem;
+    
+}
+
+.me {
+    text-align: center;
+    margin-bottom: 1rem;
+}
+
+p {
+    text-align: center;
+    margin: 0.5rem;
+    
+    
+}
+
+.icons {
+    background-color: var(--black);
+    border-radius: 10px;
+    text-align: center;
+    margin-top: 2rem;
+    width: 24em;
+    margin-left: 48rem;
+    margin-right: 50rem;
+    
+}
+
+/*about-me.html*/
+
+.infosobremi{
+    display: flex;
+    justify-content: center;
+    margin-top: 18rem;
+}
+
+.estudios {
+    display: flex;
+    flex-direction: column;
+    background-color: var(--black);
+    color: var(--white);
+    text-align: center;
+    width: 18em;
+    height: 3rem;
+    padding-top: 1rem;
+    padding-bottom: 8rem;
+    padding-left: 1rem;
+    padding-right: 1rem;
+    border-radius: 10px;
+    margin: 1rem;
+    
+}
+
+.know-me {
+    display: flex;
+    flex-direction: column;
+    background-color: var(--black);
+    color: var(--white);
+    text-align: center;
+    width: 18em;
+    height: 3rem;
+    padding-top: 1rem;
+    padding-bottom: 13rem;
+    padding-left: 1rem;
+    padding-right: 1rem;
+    border-radius: 10px;
+    margin: 1rem;
+}
+
+/*my-skills.html*/
+
+.skills-icons {
+    display: flex;
+    justify-content: center;
+    margin-top: 12rem;
+}
+
+.skill {
+    display: flex;
+    flex-direction: column;
+    width: 20em;
+    height: 15rem;
+    margin: 3rem;
+}
+
+/*my-projects.html*/
+
+.projects-content {
+    display: flex;
+    justify-content: center;
+    margin-top: 12rem;
+}
+
+.title-project {
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    margin-top: 3rem;
+    margin-left: 50rem;
+    margin-right: 50rem;
+    background-color: var(--primary);
+    color: var(--white);
+    border-radius: 1rem;
+    padding-top: 1px;
+    padding-bottom: 1px;
+    
+}
+
+@media (min-width: 768px) {
+    .title-project {
+        text-align: center;
+    }
+}
+
+.imgs-projects a {
+    display: flex;
+    flex-direction: column;
+    width: 20em;
+    height: 15rem;
+    margin-left: 2rem;
+    margin-right: 2rem;
+    
+}
+
+/*contact.html*/
+
+.formulario{
+    margin-top: 2rem;
+    background-color: var(--gris);
+    padding: 2rem;
+    border-radius: 1rem;
+}
+.formulario fieldset{
+    border: none;
+}
+.formulario legend{
+    text-align: center;
+    font-size: 2rem;
+    text-transform: uppercase;
+    font-weight: bold;
+    color: var(--primario);
+
+}
+.campo label{
+    display: block;
+    color: var(--blanco);
+    font-weight: bold;
+    margin-bottom: 0.5rem;
+}
+.input-text{
+    width: 90%;
+    border: none;
+    padding: 1.5rem;
+    border-radius: 0.5rem;
+}
+.w90{
+    width: 93%;
+    border-radius: 1rem; 
+    margin-top: 1rem;
+    padding: 1rem;
+}
+
+
+
